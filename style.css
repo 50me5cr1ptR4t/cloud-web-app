@@ -132,6 +132,16 @@ footer a:hover {
     display: none;
 }
 
+.error {
+    margin-top: 15px;
+    color: #b91c1c;
+    background: #fee2e2;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
 #flag {
     margin-top: 20px;
     padding: 20px;
