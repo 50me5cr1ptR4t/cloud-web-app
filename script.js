@@ -18,7 +18,7 @@
         if (!login || !pass) return;
 
         if (md5(login) === LOGIN_HASH && md5(pass) === PASS_HASH) {
-            flag.style.display = "block";   // 👈 кнопка реально открывает блок
+            flag.style.display = "block";
             form.reset();
         }
     });
