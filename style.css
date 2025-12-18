@@ -128,3 +128,16 @@ footer a:hover {
         margin: 10px;
     }
 }
+.hidden {
+    display: none;
+}
+
+#flag {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #e6fffa;
+    color: #065f46;
+    font-weight: bold;
+    text-align: center;
+}
