@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
- <meta charset="UTF-8">
- <link rel="stylesheet" href="style.css">
- <title>Моё облачное приложение</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя страница</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <h1>Веб-приложение развернуто в облаке</h1>
- <p>ЛПР №3 выполнена успешно</p>
+    <header>
+        <h1>Моя Прекрасная Страница</h1>
+        <nav>
+            <a href="#about">Обо мне</a>
+            <a href="#register">Регистрация</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Добро пожаловать!</h2>
+        <p>Эта страница создана с использованием HTML и CSS с приятным дизайном. Здесь вы можете узнать обо мне(не-а) и зарегистрироваться.</p>
+        <a class="btn" href="#about">Обо мне</a>
+        <a class="btn" href="#register">Регистрация</a>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>Обо мне</h2>
+            <p>Привет! Я увлекаюсь веб-разработкой. Люблю создавать красивые и функциональные дизайны для веб-страниц. (Это выполнение учебного задания, не реальная страница)</p>
+        </section>
+
+        <!-- Register Section -->
+        <section id="register">
+            <h2>Регистрация</h2>
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password">
+
+                <button type="submit" class="btn">Зарегистрироваться</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Моя Прекрасная Страница. Все права защищены. | <a href="mailto:example@mail.com">Связаться(не чет не хочу)</a></p>
+    </footer>
 </body>
 </html>
-
