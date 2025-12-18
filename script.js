@@ -6,14 +6,20 @@
         return CryptoJS.MD5(str).toString();
     }
 
-    document.getElementById("loginForm").addEventListener("submit", e => {
+    const form = document.getElementById("loginForm");
+    const flag = document.getElementById("flag");
+
+    form.addEventListener("submit", (e) => {
         e.preventDefault();
 
-        const login = document.getElementById("login").value;
+        const login = document.getElementById("login").value.trim();
         const pass  = document.getElementById("password").value;
 
+        if (!login || !pass) return;
+
         if (md5(login) === LOGIN_HASH && md5(pass) === PASS_HASH) {
-            document.getElementById("flag").classList.remove("hidden");
+            flag.style.display = "block";   // 👈 кнопка реально открывает блок
+            form.reset();
         }
     });
 })();
