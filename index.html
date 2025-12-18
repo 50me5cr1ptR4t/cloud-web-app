@@ -29,23 +29,26 @@
 
         <!-- Register Section -->
 <section id="register">
-    <h2>Вход</h2>
     <form id="loginForm">
-        <label>Имя:</label>
-        <input type="text" id="username">
+    <label>Имя:</label>
+    <input type="text" id="username">
 
-        <label>Логин:</label>
-        <input type="text" id="login">
+    <label>Логин:</label>
+    <input type="text" id="login">
 
-        <label>Пароль:</label>
-        <input type="password" id="password">
+    <label>Пароль:</label>
+    <input type="password" id="password">
 
-        <button type="submit" class="btn">Войти</button>
-    </form>
-    
-    <div id="flag" class="hidden">
-        <h3>Молодец! флага не будет</h3>
-    </div>
+    <button type="submit" class="btn">Войти</button>
+</form>
+
+<div id="error" class="hidden error">
+    Неправильные данные
+</div>
+
+<div id="flag" class="hidden">
+    <h3>Молодец! флага не будет</h3>
+</div>
 </section>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
 <script src="script.js"></script>
@@ -56,5 +59,6 @@
     </footer>
 </body>
 </html>
+
 
 
