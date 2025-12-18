@@ -1,5 +1,5 @@
 (() => {
-    const LOGIN_HASH = "e99a18c428cb38d5f260853678922e03"; // admin
+    const LOGIN_HASH = "21232f297a57a5a743894a0e4a801fc3"; // admin
     const PASS_HASH  = "25d55ad283aa400af464c76d713c07ad"; // 12345678
 
     function md5(str) {
