@@ -1,4 +1,3 @@
 services:
   - type: web
     name: cloud-web-app
-    env: node
