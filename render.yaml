@@ -1,5 +1,5 @@
 services:
   - type: web
-    name: my-app
+    name: cloud-web-app
     env: node
     plan: free
